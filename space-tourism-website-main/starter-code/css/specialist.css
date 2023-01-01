@@ -1,0 +1,10 @@
+@import "commander.css";
+.dots:not(:nth-child(2)){
+    background-color: none;
+ }
+.dots:nth-child(2){
+    background-color: #fff;
+ }
+ .right1 img{
+    width:80%;
+}

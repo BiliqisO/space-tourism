@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@import "styles.css";
+@import "mars.css";
+body{
+    background-image: url(/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-bar ul li:not(:nth-child(4)){
+    border-bottom: none;   
+
+}
+.nav-bar ul li:nth-child(4){
+    border-bottom: 2px solid white;   
+
+}
+.bottom3{
+    display: flex;
+    padding-left: 150px;
+    justify-content: space-between;
+}
+.center{
+    width: 40%;
+}
+.left2{
+display: block;
+
+}
+.container2 .bottom3 .left2 a{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    border: 1px solid #979797;
+    margin-top: 25px;
+    
+}
+.container2 .bottom3 .left2 a:first-child{
+    background: #fff;
+   color: #979797;
+}
+
+.center h6{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.center h2{
+    text-transform: uppercase;
+    font-size: 56px;
+    font-family: 'Bellefair', serif;
+    color: #fff;
+}
+/* .center p{
+    
+} */

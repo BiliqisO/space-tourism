@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@import "styles.css";
+@import "mars.css";
+body{
+    background-image: url(/starter-code/assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-bar ul li:not(:nth-child(3)){
+    border-bottom: none;   
+
+}
+.nav-bar ul li:nth-child(3){
+    border-bottom: 2px solid white;   
+
+}
+
+.planets nav ul li:nth-child(4){
+    border-bottom: 2px solid white;   
+}
+.planets nav ul li:nth-child(2){
+    border-bottom: none;   
+}
+.container1{
+    margin-top: 40px;
+    padding: 0 120px;
+}
+
+.bottom1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left1{
+    width: 60%;
+    color: #fff;
+}
+.right1 img{
+    width:76%;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Bellefair', serif;
+    color: #fff;
+    opacity: 50%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 56px;
+    font-family: 'Bellefair', serif;
+}
+p{
+      font-size: 16px;
+    line-height: 32px;
+    font-family: 'Barlow', sans-serif;
+    width: 62%;
+}
+.container1 .bottom1 .left1 .bottom2 .circles a{
+    width: 15px;
+    min-height ,;. : 15px;
+    border-radius: 50%;
+    background-color: #979797;
+}
+.container1 .bottom1 .left1 .bottom2 .circles a:first-child{
+    background-color: #fff;
+}
+.top p{
+    margin-left: 0px;
+    margin-top:60px;
+}
+a:hover{
+   border-bottom: none;
+}
+a{
+    text-decoration: none;
+}
+.circles{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-top: 30px;
+}
+.bottom2{
+    margin-top: 30px;
+}

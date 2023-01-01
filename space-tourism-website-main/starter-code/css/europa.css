@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@import "mars.css";
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@import "mars.css";
+.nav-bar ul li:nth-child(2){
+    border-bottom: 2px solid white;   
+
+}
+.nav-bar ul li:nth-child(1){
+    border-bottom: none 
+
+}
+.planets nav ul li:nth-child(3){
+    border-bottom: 2px solid white;   
+}
+.planets nav ul li:nth-child(2){
+    border-bottom: none;   
+}
